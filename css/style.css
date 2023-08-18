@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.bg_navbar{
+        background: linear-gradient(to right top, #0ca59d, #28aca4, #39b2ab, #47b9b3, #54c0ba) !important;
+}
+.navbar .navbar-nav {
+    font-family: "Dosis", sans-serif;
+    margin-left: auto;
+}
+.navbar .navbar-nav .nav-item a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.navbar .navbar-nav .nav-item a:hover, .navbar .navbar-nav .nav-item a:focus, .navbar .navbar-nav .nav-item a.active {
+    color: #ffac00;
+}
+
+.banner img {
+    width: 100%;
+}
+a {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #333333;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-family: "Dosis", sans-serif;
+}
+h3 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.services-area{
+    padding-top: 30px;
+}
+
+.single-services-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    box-shadow: 0px 0px 11px -3px rgb(0 0 0 / 20%);
+}
+.single-services-box:hover {
+    -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+    box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.single-services-box h3 {
+    margin-bottom: 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+.btn {
+    border: none;
+    line-height: initial;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 10px 32px 12px;
+    position: relative;
+    z-index: 1;
+    opacity: 1 !important;
+    font-size: 16px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+}
+.btn-light {
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #d7d7d7;
+    padding: 9px 32px 11px;
+}
+
+.btn-light:hover, .btn-light:focus {
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    background-color: #0ca59d !important;
+    color: #ffffff !important;
+    border-color: #0ca59d !important;
+}
+
+.icon .icon-img {
+    width: 80px;
+}
+
+.single-services-box:hover img {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+@keyframes swing {
+    15% {
+        transform: translateX(10px);
+    }
+    30% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(6px);
+    }
+    65% {
+        transform: translateX(-6px);
+    }
+    80% {
+        transform: translateX(4px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.image img{
+    max-width: 100%;
+}
+.shape1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.shape2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.features-area{
+    position: relative;
+}
