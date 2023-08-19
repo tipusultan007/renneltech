@@ -2,19 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Renneltech</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css" media="all"/>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-<div class="navbar-area bg_navbar p-2" style="">
+<div class="navbar-area bg_navbar">
+    <div class="evolta-responsive-nav">
+        <div class="container">
+            <div class="evolta-responsive-menu">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -22,8 +40,29 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                    <li class="nav-item"><a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="digital_strategy.html" class="nav-link"> Digital Strategy and
+                                Transformation </a></li>
+                            <li class="nav-item"><a href="cloud_computing.html" class="nav-link"> Cloud computing </a>
+                            </li>
+                            <li class="nav-item"><a href="application_modernization.html" class="nav-link"> Application
+                                Modernization </a></li>
+                            <li class="nav-item"><a href="data_science.html" class="nav-link"> Data Science and
+                                Engineering </a></li>
+                            <li class="nav-item"><a href="cyber_security.html" class="nav-link"> Cybersecurity </a></li>
+                            <li class="nav-item"><a href="financial_reporting.html" class="nav-link"> Financial
+                                Reporting </a></li>
+                            <li class="nav-item"><a href="procurement_analytics_services.html" class="nav-link">
+                                Procurement Analytics Services </a></li>
+                            <li class="nav-item"><a href="database_administration.html" class="nav-link"> Database
+                                Administration </a></li>
+                            <li class="nav-item"><a href="rpa_services.html" class="nav-link"> RPA Services </a></li>
+                            <li class="nav-item"><a href="oracle_consulting_services.html" class="nav-link"> Oracle
+                                Consulting Services </a></li>
+                            <li class="nav-item"><a href="staffing_services.html" class="nav-link"> Staffing
+                                Services </a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Clients & Partners</a>
@@ -58,7 +97,7 @@
                     <h3><a href="#"> Digital Strategy and Transformation </a></h3>
                     <p> Renneltech operate across the full spectrum of digital ... </p>
                     <div class="fd">
-                        <a href="" class="btn btn-light" > Read More.. </a>
+                        <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
 
                 </div>
@@ -68,10 +107,10 @@
                     <div class="icon">
                         <img class="icon-img" src="images/service_icons/cloud_computing.svg">
                     </div>
-                    <h3><a href="#"> Cloud Computing  </a></h3>
+                    <h3><a href="#"> Cloud Computing </a></h3>
                     <p> Our comprehensive cloud services optimize costs through... </p>
                     <div class="fd">
-                        <a href="" class="btn btn-light" > Read More.. </a>
+                        <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
 
                 </div>
@@ -81,10 +120,10 @@
                     <div class="icon">
                         <img class="icon-img" src="images/service_icons/moderanization.svg">
                     </div>
-                    <h3><a href="#">  Application Modernization </a></h3>
+                    <h3><a href="#"> Application Modernization </a></h3>
                     <p> Our modernization process is methodical, helping... </p>
                     <div class="fd">
-                        <a href="" class="btn btn-light" > Read More.. </a>
+                        <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
 
                 </div>
@@ -97,7 +136,7 @@
                     <h3><a href="#"> Data Science Engineering </a></h3>
                     <p> We help our clients discover, analyze and interpret data to... </p>
                     <div class="fd">
-                        <a href="" class="btn btn-light" > Read More.. </a>
+                        <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
 
                 </div>
@@ -175,7 +214,7 @@
                     <h3><a href="#"> Oracle Consulting Services </a></h3>
                     <p> We provide consulting services to the below oracle ... </p>
                     <div class="fd">
-                        <a href="" class="btn btn-light" > Read More.. </a>
+                        <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
 
                 </div>
@@ -199,54 +238,66 @@
                         <img class="icon-img" src="images/service_icons/staffing_services.svg">
                     </div>
                     <h3><a href="#"> Staffing Services </a></h3>
-                    <p> Having the right-sized team is critical to any  ... </p>
+                    <p> Having the right-sized team is critical to any ... </p>
                     <div class="fd">
                         <a href="" class="btn btn-light"> Read More.. </a>
                     </div>
-
-                </div>
-            </div></div>
-    </div>
-</section>
-
-<section class="features-area py-3">
-    <div class="shape1"><img src="images/shape1.png" alt="image"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="image wow animate__ animate__zoomIn animated" data-wow-delay="1s">
-                    <img src="images/bussiness_1.png" alt="image">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="content">
-                    <h3> Our Strength </h3>
-                    <h5> Our vibrant network cultivated by years of IT industry contacts and resources delivers proven results. </h5>
-                    <p>
-                        We are able to maximize your IT spending by offering highly skilled IT professionals where and when you need them. Our streamlined and efficient processes allows us to meet your needs and exceed your expectations. Our subject matter experts and consultants can deliver support throughout the entire engagement lifecycle of any project. We specialize in anticipating needs, meeting challenges, finding solutions and producing the results to ensure your success. We believe in building long term relationships.
-                    </p>
 
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="features-area py-3">
+
+<section class="features-area">
+    <div class="shape1"><img src="images/shape1.png" alt="image"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="content">
-                    <h3> Our Story </h3>
-                    <p>
-                        Rennel Tech Inc. is a women owned small business which provides Management Consulting and IT Services.Registered under Women-Owned Small Business Federal Contracting Program (SBA 8A) We specialize in formulating IT Strategy, providing Advisory Services, and devising Cloud &amp; Enterprise Architecture Strategy, and we deliver results without the overhead of large business competitors.
-                        <br>
-                        <br>
-                        With a structured approach and method, we help our clients develop, implement and integrate mission-critical ERP, CRM, LMS, PPM and BI applications and processes. We are currently helping our clients develop, implement and integrate cutting edge solutions using Oracle E-Business Suite R12, Salesforce Sales &amp; Service Cloud, Google Apps Engine &amp; Search Appliance, SABA Cloud, Clarity, Business Intelligence, Mobile Applications and Automatic Call Distribution systems, paired with proficiency in managing enterprise PMO.
-                    </p>
+            <div class="col-md-6 image">
+                <div class="wow animate__animated animate__zoomIn" data-wow-delay=".1s">
+                    <img src="images/bussiness_1.png" alt="image">
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="image wow animate__ animate__zoomIn animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomIn;">
+            <div class="col-md-6 content">
+                    <h3> Our Strength </h3>
+                    <h5> Our vibrant network cultivated by years of IT industry contacts and resources delivers proven
+                        results. </h5>
+                    <p>
+                        We are able to maximize your IT spending by offering highly skilled IT professionals where and
+                        when you need them. Our streamlined and efficient processes allows us to meet your needs and
+                        exceed your expectations. Our subject matter experts and consultants can deliver support
+                        throughout the entire engagement lifecycle of any project. We specialize in anticipating needs,
+                        meeting challenges, finding solutions and producing the results to ensure your success. We
+                        believe in building long term relationships.
+                    </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 content">
+                    <h3> Our Story </h3>
+                    <p>
+                        Rennel Tech Inc. is a women owned small business which provides Management Consulting and IT
+                        Services.Registered under Women-Owned Small Business Federal Contracting Program (SBA 8A) We
+                        specialize in formulating IT Strategy, providing Advisory Services, and devising Cloud &amp;
+                        Enterprise Architecture Strategy, and we deliver results without the overhead of large business
+                        competitors.
+                        <br>
+                        <br>
+                        With a structured approach and method, we help our clients develop, implement and integrate
+                        mission-critical ERP, CRM, LMS, PPM and BI applications and processes. We are currently helping
+                        our clients develop, implement and integrate cutting edge solutions using Oracle E-Business
+                        Suite R12, Salesforce Sales &amp; Service Cloud, Google Apps Engine &amp; Search Appliance, SABA
+                        Cloud, Clarity, Business Intelligence, Mobile Applications and Automatic Call Distribution
+                        systems, paired with proficiency in managing enterprise PMO.
+                    </p>
+            </div>
+            <div class="col-md-6 image">
+                <div class=" wow animate__animated animate__zoomIn" data-wow-delay="1s">
                     <img src="images/business_2.png" alt="image">
                 </div>
             </div>
@@ -254,7 +305,161 @@
     </div>
     <div class="shape2"><img src="images/shape2.png" alt="image"></div>
 </section>
+<div class="partner-area">
+    <div class="container ">
+        <div class="section-title">
+            <h2> Our Partners </h2>
+        </div>
+        <div class="mb-5">
+            <div class="partner-images d-flex mt-3">
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/partner1.png" alt="image"></a>
+                </div>
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/partner2.png" alt="image"></a>
+                </div>
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/partner3.png" alt="image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<section class="feedback-area text-center">
+    <div class="container">
+        <div class="section-title">
+            <h2> Our Commitment </h2>
+            <p> We strive to deliver a level of service that exceeds the expectations of our customers. <br> <br>
+                If you have any questions about our products or services, please do not hesitate to contact us. We have
+                friendly, knowledgeable representatives available seven days a week to assist you. </p>
+        </div>
+    </div>
+
+    <div class="feedback-shape"><img src="images/white-shape2.png" alt="image"></div>
+    <div class="shape-rectangle"><img src="images/1.png" alt="image"></div>
+</section>
+
+<div class="partner-area">
+    <div class="container ">
+        <div class="section-title">
+            <h2> Our Clients</h2>
+        </div>
+        <div class="mb-5">
+            <div class="partner-images d-flex mt-3 justify-content-center">
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/clients-logo3.png" alt="image"></a>
+                </div>
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/fda.png" alt="image"></a>
+                </div>
+                <div class="imgBoxs">
+                    <a href="#"><img src="images/hhs.png" alt="image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer-area fd">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.png" alt="image"></a>
+                        <p>
+                            Rennel Tech Inc. is a women owned small business which provides Management Consulting and IT
+                            Services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Services</h3>
+
+                    <ul class="footer-services-list">
+                        <li><a href="digital_strategy.html"> Digital Strategy and Transformation </a></li>
+                        <li><a href="cloud_computing.html"> Cloud computing </a></li>
+                        <li><a href="application_modernization.html"> Application Modernization </a></li>
+                        <li><a href="data_science.html"> Data Science and Engineering </a></li>
+                        <li><a href="cyber_security.html"> Cybersecurity </a></li>
+                        <li><a href="financial_reporting.html"> Financial Reporting </a></li>
+                        <li><a href="procurement_analytics_services.html"> Procurement Analytics Services </a></li>
+                        <li><a href="database_administration.html"> Database Administration </a></li>
+                        <li><a href="rpa_services.html"> RPA Services </a></li>
+                        <li><a href="oracle_consulting_services.html"> Oracle Consulting Services </a></li>
+                        <li><a href="oracle_cloud_services.html"> Oracle Cloud Services </a></li>
+                        <li><a href="staffing_services.html"> Staffing Services </a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Quick Links</h3>
+
+                    <ul class="quick-links-list">
+                        <li><a href="#"> Home </a></li>
+                        <li><a href="#"> Services </a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#"> Clients </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contacts</h3>
+
+                    <ul class="footer-contact-list">
+                        <li><span>Address:</span> 182 Mill green Ave, Unit 200
+                            Gaithersburg, MD 20878
+                        </li>
+                        <li><span>Email:</span> <a href="#"> Info@renneltech.com </a></li>
+                        <li><span>Phone:</span> <a href="#"> 206-359-1076 </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <p class="text-center">© Copyright 2022 <a href="https://renneltech.com/" target="_blank">
+                        Renneltech </a> Inc.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</footer>
 <script src="js/bootstrap.bundle.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.meanmenu.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        //$('.navbar-nav').meanmenu();
+        $('#navbarNav').meanmenu({
+            meanScreenWidth: "480",
+            meanMenuContainer: '.evolta-responsive-menu'
+        });
+    });
+</script>
 </body>
 </html>
